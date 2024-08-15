@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 08</title>
+</head>
+<body>
+  <h2>Conversor de medidas: </h2>
+  <label for="medida">Preencha o valor em metros(m)</label>
+  <input type="number" name="medida" id="medida">
+
+  <label for="unidade">Converter para: </label>
+  <select name="unidade" id="unidade">
+    <option value="pes">Pés</option>
+    <option value="jarda">Jarda</option>
+    <option value="polegadas">Polegadas</option>
+    <option value="milhas">Milhas</option>
+  </select>
+  <button onclick="converter()">Converter</button>
+
+  <h3 id="convertido"></h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
